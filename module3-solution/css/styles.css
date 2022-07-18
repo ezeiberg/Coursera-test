@@ -1,0 +1,114 @@
+* {
+	font-family: Monaco, Helvetica, monospace;
+}
+
+/***** Header *****/
+#header-nav {
+	background-color: #FF1493;
+	border-radius: 0;
+	height: 100px;
+	border: 0;
+	position: relative;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand a:link, a:visited,  a:hover, a:active { /* Restaurant name */
+	font-family: Monaco, Helvetica, monospace;
+	color: #00BFFF;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1 px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	text-align: left;
+	text-decoration: none;
+}
+
+#nav-list {
+	position: relative;
+  margin-top: 79px;
+  background: #FF1493;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 5;
+  border: 5px;
+}
+#nav-list a {
+  color: #00BFFF;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+	box-sizing: border-box;
+	margin: 0px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both; /* Removes collapsing of floating element, keeps two elements on same line */
+  margin-top: -30px;
+  position: absolute;
+  top: 67px;
+  right: 10px;
+}
+
+.head {
+	font-family: Monaco, Helvetica, monospace;
+	color: #00BFFF;
+	font-size: 1.5em;
+}
+
+.col-md-12, .col-sm-12, .col-xs-12 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  height: 1000px;
+  z-index: 1;
+}
+
+.row {
+	position: relative;
+}
+
+#chicken-section, #beef-section, #sushi-section {
+	background-position: center;
+	font-size: 1.25em;
+}
+
+.description {
+	margin-top:  20px;
+}
+
+.col-xs-12 {
+   width: 20%;
+}
+
+.container {
+	width: 80%	
+}
+/***** Medium devices only *****/
+@media (min-width: 992px) {
+
+/***** Small devices only *****/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/***** Extra small devices only *****/
+@media (max-width:767px){
+  .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+  }
+}	
