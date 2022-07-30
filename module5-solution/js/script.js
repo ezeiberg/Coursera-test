@@ -86,7 +86,6 @@ $ajaxUtils.sendGetRequest(
   buildAndShowCategoriesHTML, // ***** <---- TODO: STEP 1: Substitute [...] ******
   true); // Explicitly setting the flag to get JSON from server processed into an object literal
 });
-console.log(buildAndShowCategoriesHTML(categories))
 // *** finish **
 
 
@@ -103,7 +102,6 @@ function buildAndShowHomeHTML (categories) {
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
       var chosenCategoryShortName = chooseRandomCategory(categories).short_name;
-      console.log(chosenCategoryShortName);
 
       
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
